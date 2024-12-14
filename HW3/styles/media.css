@@ -1,0 +1,119 @@
+@media (max-width:960px) {
+    .about__box-left-text,
+    .about__box-right-text-call,
+    .about__box-right-text,
+    .about__box-right-text-mail {
+        font-size: 13px;
+    }
+
+    .header__nav-items {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .about__box-left {
+        padding: 40px 20px;
+        height: 440px;
+    }
+    .about__box-right {
+        padding: 30px 20px;
+        height: 440px;
+    }
+}
+
+@media (max-width:730px) {
+
+    .about__box-left-title,
+    .about__box-right-title {
+        font-size: 16px;  
+    }
+
+    .about__box-left,
+    .about__box-right {
+        gap: 15px;
+    }
+
+    .main__about-box {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about__box-left {
+        width: 500px;
+        height: 420px;
+    }
+    .about__box-right {
+        width: 300px;
+        height: 300px;
+    }
+
+    .footer__box {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footer___box-text {
+        font-size: 8px;
+    }
+
+    .footer__box-left-title {
+        font-size: 16px;
+    }
+}
+
+
+
+@media (max-width:470px) {
+
+    .about__box-left-text,
+    .about__box-right-text-call,
+    .about__box-right-text,
+    .about__box-right-text-mail {
+        font-size: 8px;
+    }
+
+    .about__box-left-title,
+    .about__box-right-title {
+        font-size: 13px;
+    }
+
+    .about__box-left {
+        width: 350px;
+        height: 250px;
+        padding: 30px 15px;
+    }
+    .about__box-right {
+        width: 200px;
+        height: 150px;
+        padding: 20px 15px;
+        gap: 5px;
+    }
+
+    .header__nav-items {
+        margin-top: 40px;
+    }
+
+    .main__about-box {
+        gap: 0px;
+    }
+
+    .footer__box-right-img {
+        width: 150px;
+        height: 60px;
+    }
+
+    .footer__box {
+        padding-bottom: 10px;
+    }
+
+    .footer___box-text {
+        font-size: 5px;
+    }
+
+    .footer__box-left-title {
+        font-size: 12px;
+    }
+
+}

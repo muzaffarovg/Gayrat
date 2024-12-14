@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__nav {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.25);
+    background: #282828;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.nav__left-box {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav__left-item {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav__left-link {
+    font-family: MB;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+}
+
+.nav__right-box {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+    height: 700px;
+    background: url(../images/content.jpg) no-repeat center/cover;
+}
+
+.content__box-title {
+    font-family: PR;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75%;
+    color: #fff;
+}
+
+.content__box-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    font-family: MM;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #171718;
+    background: #fff;
+    border-radius: 10px;
+    max-width: 200px;
+    width: 100%;
+    height: 50px;
+}
+
+.main {
+    background: black;
+}
+
+.embo__box {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.embo__box-img {
+    max-width: 552px;
+    width: 100%;
+}
+
+.embo__box-text {
+    font-family: MM;
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+    width: 480px;
+    height: 135px;
+}
+
+.case__box {
+    display: flex;
+    gap: 87px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.case__box-text {
+    font-family: MM;
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+    height: 135px;
+    width: 480px;
+}
+
+.right__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 88px;
+    padding-top: 50px;
+}
+
+.right__box-image {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.right__box-image::before,
+.right__box-image::after {
+    content: "";
+    display: block;
+    width: 61px;
+    height: 1px;
+    background: #c4c4c4;
+}
+
+.right__box-text-right,
+.right__box-text-left {
+    display: flex;
+    align-items: center;
+    font-family: MB;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    max-width: 300px;
+    width: 100%;
+    height: 160px;
+    text-align: center;
+}
+
+.iphone__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding-top: 80px;
+    padding-bottom: 55px;
+}
+
+.iphone__box-item {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #fff;
+    border-radius: 6px;
+    width: 255px;
+    height: 312px;
+}
+
+.iphone__box-item-title {
+
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    margin-top: 15px;
+}
+
+.iphone__box-item-text {
+    font-family: MR;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.iphone__box-item-link {
+    font-family: MB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background: #151515;
+    width: 161px;
+    height: 34px;
+    font-family: MB;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 22px;
+}
+
+.footer {
+    box-shadow: 0 -4px 20px 0 rgba(0, 0, 0, 0.25);
+    background: #282828;
+    height: 215px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer__box-middle {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer__box-middle-link {
+    font-family: MB;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+}
+
+.footer__box-left {
+    display: flex;
+    gap: 29px;
+    align-items: center;
+    justify-content: center;
+}

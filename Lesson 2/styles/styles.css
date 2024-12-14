@@ -1,0 +1,50 @@
+/* 
+
+существует три вида основных селекторов
+1.тег
+2.class
+3.id
+
+*/
+
+*{
+margin: 0;
+padding: 0;
+}
+
+h2{
+    color: aqua;
+    background: black;
+    margin: 20px 30px 40px 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.title{
+    color: blueviolet;
+    background-color: blanchedalmond;
+    width: 400px;
+    height: 150px;
+    margin: 0 auto; 
+}
+
+.photo{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    border: 10px solid red;
+}
+
+.box{
+    text-align: center;
+    margin-top: 30px;
+}
+
+li{
+    color: gray;
+    font-size: 30px;
+}
+
+body{
+    background: url(../images/flame.jpeg) no-repeat center/cover;
+}

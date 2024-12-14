@@ -1,0 +1,185 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.logos{
+    height: 500px;
+    width: 700px;
+}
+
+.byd {
+    height: 150px;
+    width: 150px;
+}
+
+.back {
+    height: 50px;
+    width: 50px;
+}
+
+.box1 {
+    background-color: yellow;
+    text-align: center;
+}
+
+p {
+    color: green;
+    padding-top: 20px;
+}
+
+a {
+color: aqua;
+padding-top: 20px;
+}
+
+.box2 {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+}
+
+.bottom {
+    padding-bottom: 20px;
+}
+
+.logos {
+    padding-top: 20px;
+}
+
+.box3 {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+}
+
+.next {
+   padding: 20px;
+   color: black;
+}
+
+.full {
+    margin: 0 auto;
+    padding: 20px; 
+    color: greenyellow;
+    background-color: green;
+}
+
+.body2 {
+    background: blue;
+    padding: 20px;
+}
+
+.backa {
+    padding: 10px;
+}
+
+.box22 {
+   text-align: center;
+}
+
+.green {
+    margin: 0 auto;
+    padding: 20px; 
+    color: greenyellow;
+    background-color: green;
+    text-align: center;
+}
+
+.red {
+    color: red;
+    padding-bottom: 20px;
+}
+
+.location {
+    padding: 20px;
+    text-align: center;
+}
+
+.box23 {
+    text-align: center;
+}
+
+.youtube {
+ width: 1280px;
+ height: 720px;
+}
+
+.item {
+    height: 100px;
+    width: 500px;
+    border: 1px solid red;
+    margin: 20px;
+    background: cyan;
+    border-radius: 15px;
+}
+
+.box15 {
+    display: flex;
+    justify-content: center;
+}
+
+.item1 {
+    height: 75px;
+    width: 400px;
+    border: 1px solid red;
+    margin: 20px;
+    background: cyan;
+    border-radius: 15px;
+}
+
+.item3 {
+    height: 200px;
+    width: 625px;
+    border: 1px solid red;
+    margin: 20px;
+    background: cyan;
+    border-radius: 15px;
+}
+
+.centre {
+    background: green;
+    text-align: center;
+}
+
+.box31 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background: violet;
+    border-radius: 40px;
+}
+
+.item11 { 
+    width: 140px;
+    height: 120px;
+    border: 1px solid red;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/byd_logo.svg);
+    background-position: center;
+}
+
+.wtyhn {
+    align-items: center;
+    justify-content: center;
+}
+
+.jkjnjdsq {
+background-color: greenyellow;
+}
+
+.location1 {
+    padding: 45px;
+    height: 200px;
+    width: 200px;
+}

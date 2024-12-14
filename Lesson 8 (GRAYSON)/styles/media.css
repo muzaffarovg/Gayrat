@@ -1,0 +1,38 @@
+@media (max-width:1140px) {
+
+    .photo__box,
+    .commerce__box,
+    .footer__box {
+        flex-wrap: wrap;
+        gap: 25px;
+        justify-content: center;
+    }
+}
+
+@media (max-width:950px) {
+    .header__nav-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header__content {
+        height: 500px;
+    }
+}
+
+@media(max-width:630px) {
+    .header__content-title {
+        font-size: 30px;
+        padding: 5px 15px;
+    }
+    .header__nav-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    .commerce__info-title,
+    .photo__item-title,
+    .high__box-title {
+        font-size: 26px;
+    }
+}
