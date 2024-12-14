@@ -12,3 +12,12 @@
     align-items: center;
     justify-content: center;
 }
+
+.main {
+    background-color: purple;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
